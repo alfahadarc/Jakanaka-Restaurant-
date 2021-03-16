@@ -1,0 +1,204 @@
+html
+{
+  scroll-behavior: smooth;
+}
+ 
+.nav  li a {
+  color: rgb(12, 241, 211);
+  text-decoration: none;
+  font-size: 1.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .nav-link:hover {
+  color: #db4130;
+  font-weight: bold;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}  
+
+/* NAV END SECTION*/
+
+/* START WELCOME SECTION */
+#carouselExampleIndicators{    
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* START ABOUT SECTION   */
+#About{
+  margin-top: 100px; 
+  margin-bottom: 150px;
+   font-family: 'Righteous', cursive;
+}
+#GoToShop:hover{
+  background-color: rgb(207, 53, 53);
+  transform: translateY(-8px);
+  transition: transform 0.3s ease-out;
+}
+#GoToMenu:hover{
+  background-color: rgb(207, 53, 53);
+  transform: translateY(-8px);
+  transition: transform 0.3s ease-out;
+}
+/* END ABOUT SECTION   */
+
+/* START SERVICES SECTION   */
+#Service{
+  margin-top: 200px; 
+  margin-bottom: 150px;
+  font-family: 'Righteous', cursive;
+}
+
+#Service h4 {
+	margin: 10px auto;
+	font-size: 20px;
+	color: rgb(20, 20, 20);
+}
+
+#Service .round:hover .fa{
+	color: #0d61df;
+	transition: color 2s;	
+}
+#Service .round:hover h4{
+	color: #1c0ee0;
+	transition: color 2s;	
+}
+#Service .round:hover p{
+	color: #0fc5fcfa;
+	transition: color 2s;	
+}
+
+#contactBTN{
+  background-color: #182c39;
+  border-color: #000 ;
+}
+#contactBTN:hover{
+  background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ transform: translateY(8px);
+  transition: transform 0.3s ease-out;
+  border-color: #000 ;
+  transition: background-color 2s;	
+}
+
+
+/* END SERVICES SECTION   */
+
+ /* START STAFF SECTION  */
+ 
+ #cards .card {
+  border-radius: 20px;
+  min-height: 100%;
+}
+
+#cards .heading-border {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+}
+
+#cards .card .user-picture img {
+  position: absolute;
+  top: -20%;
+  right: 10%;
+  background: #f8f9fa!important;
+  padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+  margin-right: 150px;
+}
+#Staff-header{
+  font-family: 'Righteous', cursive;
+  color: rgb(253, 128, 10);
+}
+/* END STAFF SECTION  */
+
+/*  START REVIEWS SECTION  */
+#testimonials{
+  margin-bottom: 100px;
+font-family: 'Akaya Telivigala', cursive;
+}
+
+#testimonials .hr-testimonials {
+	border: 1px solid #182c39;
+	width: 50%;
+	margin: 0 auto 35px auto;
+}
+
+#testimonials h3 {
+	color: #182c39;
+	margin: 40px auto;
+}
+
+#testimonials .carousel {
+	float: none;
+  	margin: auto;
+}
+
+
+#testimonials .carousel-indicators li {
+	border: 2px solid #182c39;
+	background-color: #fff;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+}
+
+#testimonials .carousel-indicators li.active {
+	border-color: #fff;
+	background-color: #182c39;
+}
+
+
+
+#testimonials .carousel-item h4 {
+	font-size: 18px;
+	line-height: 1.2em;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+#testimonials .carousel-item h5 {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 80px;
+	font-style: italic;
+}
+/*  END REVIEWS SECTION  */
+
+/* contact section styling */
+
+/* START FOOTER SETION  */
+footer{
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  background-color:#182c39; 
+  font-family: 'Acme', sans-serif;
+}
+footer a{
+  color: rgb(240, 236, 236);   
+}
+footer a:hover{
+  color: rgb(27, 231, 78);   
+  transition: transform 0.3s ease-out;
+  transition: color 1s;	
+  transform: scale(1.1);
+  text-shadow: 0 0 20px #48ff00;
+}
+footer textarea{
+ width: 100px;
+}
+/* END FOOTER SETION  */
